@@ -1,14 +1,15 @@
-import { Link } from 'react-router-dom'
+
 import './App.css'
+
+import { Header } from './Components/Header';
 
 function App() {
   
 
   return (
     <div>
-      <nav>
-        <Link></Link>
-      </nav>
+      <Header/>
+      <div style={{ height: '1000px'}}></div>
     </div>
   )
 }

@@ -2,6 +2,7 @@
 import './App.css'
 
 import { Header } from './Components/Header';
+import { Login } from './Pages/Login';
 
 function App() {
   
@@ -9,7 +10,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <div style={{ height: '1000px'}}></div>
+      <Login/>
     </div>
   )
 }
